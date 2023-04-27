@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+h2 {
+    font-size: 25px;
+    display: inline;
+
+
+}
+header {
+
+    color:lightgoldenrodyellow;
+    font-size: 24px;
+    background-color:brown;
+    width: 100vw;
+    text-align: center;
+    
+}
+nav{
+    display: inline;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+footer{
+    
+    color:lightgoldenrodyellow;
+    text-align: center;
+    font-size: 24px;
+    background-color:brown;
+    width: 100vw;
+/*position fixed doesnt seem to work*/
+/*background color is not showing in the footer*/
+    
+}
+
+
+
+#option-one{
+    color:orangered;
+    /* position:relative; */
+    /* margin-right: 15px; */
+    /* margin-left:10px; */
+
+
+    /*wanted to change the position of the headings, text align didnt work*/
+
+}
+a {
+    color:orangered;
+    background-color: rgb(68, 5, 5);
+}
+
+#option-two{
+    
+    position:relative;
+    /* margin-right:20px; */
+
+    
+}
+
+#option-three{
+   
+    position:relative;
+   
+}
+
+#option-four{
+    
+
+    text-align: right;
+ 
+}
+
+.section-one{
+    width: 600px;
+    height: 600px;
+    color:bisque;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    /* align-content: center; */
+
+}
+.notes-one{
+    color:bisque;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+#option-five{
+    color: brown;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
